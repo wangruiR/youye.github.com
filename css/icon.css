@@ -10,8 +10,12 @@
 .QQ_icon{
     background: url(../img/zhenghe.png) -83px -62px;
 }
-
-
+.tengwei_icon{
+    background: url(../img/zhenghe.png) -83px -108px;
+}
+.xinwei_icon{
+    background: url(../img/zhenghe.png) -83px -83px;
+}
 
 
 
