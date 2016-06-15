@@ -1,8 +1,14 @@
 $(function(){
-    $("#header_left_kuaijie").on("mouseover",function(){
- $(this).find(".header_left_subnav").stop().fadeIn();
+    $("#header_left_kuaijie").mouseover(function(){
+ $(this).find(".header_subnav").stop().fadeIn();
     });
     $("#header_left_kuaijie").on("mouseout",function(){
- $(this).find(".header_left_subnav").stop().fadeOut();
+ $(this).find(".header_subnav").stop().fadeOut();
+    });
+    $(".header_right_sele").mouseover(function(){
+ $(this).find(".header_right_subnav").stop().fadeIn();
+    });
+    $(".header_right_sele").on("mouseout",function(){
+ $(this).find(".header_right_subnav").stop().fadeOut();
     });
 });

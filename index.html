@@ -10,14 +10,77 @@
     <script src="js/jquery-2.0.0.min.js"></script>
 </head>
 <body>
-   <!--header头部-->
+    <!--header头部-->
     <div class="header">
+        <div class="com_wd">
+            <dl class="header_left">
+                <dd class="header_wujiao"><a href="#">收藏步淘</a></dd>
+                <em class="nav_fenge">|</em>
+                <dd>您好，欢迎来到步淘生活商城！<a href="html/login.html">请登录</a></dd>
+                <em class="nav_fenge">|</em>
+                <dd><a href="html/register.html">注册有礼</a></dd>
+                <em class="nav_fenge">|</em>
+                <dd id="header_left_kuaijie"><a href="#">快捷登录<span class="com_sele_bg"></span></a>
+                    <ul class="header_subnav">
+                        <li><a class="baidu_icon" href="#">百度登录</a></li>
+                        <li><a class="zhifubao_icon" href="#">支付宝登录</a></li>
+                        <li><a class="weixin_icon" href="#">微博登录</a></li>
+                        <li><a class="QQ_icon" href="#">QQ登录</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="header_right">
+                <dd class="header_wujiao">400-680-2212</dd>
+                <em class="nav_fenge">|</em>
+                <dd><a href="#">购物车:<i>0</i>件商品</a></dd>
+                <dd class="header_right_sele"><a href="html/register.html">我的步淘<span class="com_sele_bg"></span></a>
+                    <ul class="header_right_subnav">
+                        <li><a href="#">签到换礼</a></li>
+                        <li><a href="#">我的积分</a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">账户信息</a></li>
+                        <li><a href="#">我的淘币</a></li>
+                    </ul></dd>
+                <em class="nav_fenge">|</em>
+                <dd class="header_right_sele"><a href="#">关注我们<span class="com_sele_bg"></span></a>
+                    <ul class="header_right_subnav">
+                        <li><a class="header_rig_su_dd tengwei_icon" href="#">腾讯微博</a></li>
+                        <li><a class="header_rig_su_dd xinwei_icon" href="#">新浪微博</a></li>
+                    </ul>
+                </dd>
+                <dd class="header_right_last"></dd>
+            </dl>
+        </div>
     </div>
-    <script>
-        $(function(){
-           $(".header").load("html/header.html");
-        });
-    </script>
+    <script src="js/header.js"></script>
+    <!--logo以及搜索框-->
+    <div class="logo com_wd">
+        <a href="index.html" class="index_logo"></a>
+        <div class="index_search">
+            <form>
+                <input type="text" class="index_sea_input" placeholder="关键词"/>
+            </form>
+            <a class="index_sea_btn">搜索</a>
+        </div>
+        <div class="index_hot_nav">
+            <a href="$">森马</a>
+            <a href="$">巴拉巴拉</a>
+            <a href="$">迪士尼</a>
+            <a href="$">外套</a>
+            <a href="$">针织衫</a>
+            <a href="$">羽绒服</a>
+            <a href="$">牛仔裤</a>
+            <a href="$">女鞋</a>
+            <a href="$">男鞋</a>
+        </div>
+        <div class="index_logo_small">
+            <a href="#" class="pinzhi_icon" ></a><span>|</span>
+            <a href="#" class="tuihuan_icon" ></a><span>|</span> 
+            <a href="#" class="tuikuan_icon" ></a><span>|</span>
+            <a href="#" class="phone_icon" ></a>
+        </div>
+    </div>
+    
     
 </body>
 </html>
