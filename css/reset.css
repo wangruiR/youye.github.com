@@ -1,0 +1,41 @@
+html,body,ol,ul,dl,dt,dd,div,p,h1,h2,h3,h4,h5,h6,img,form,fieldset,legend{
+    padding:0;
+    margin: 0;
+}
+body{
+    font-weight: "微软雅黑";
+    font-size: 12px;
+}
+table,input,img{
+    border: none;
+    _border:0;
+}
+img{
+    display: block;
+}
+ul,ol,dl{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+
+.clearfix:after{
+    display: block;
+    content: '.';
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;
+}

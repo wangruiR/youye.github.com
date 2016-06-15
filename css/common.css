@@ -1,0 +1,101 @@
+/*公共宽度居中*/
+.com_wd{
+    margin: 0 auto;
+    width: 990px;
+}
+
+/*公共使用*/
+
+
+
+
+
+
+
+
+/*公共头部*/
+.header{
+    height: 26px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px #eee;
+}
+/*头部左边基础样式*/
+.header_left{
+    float: left;
+    line-height: 26px;
+    color: #555555;
+}
+.header_left dd{
+    position: relative;
+    float: left;
+    padding: 0 10px;
+}
+.header_left .nav_fenge{
+    float: left;
+}
+.header_left a{
+    color: #555555;
+}
+.header_left a:hover{
+    color: #c20525;
+}
+.header_subnav{
+    display: none;
+    position: absolute;
+    left: -32px;
+    top: 26px;
+    width: 113px;
+    padding: 1px;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+}
+.header_subnav li{
+    width: 99px;
+    padding-left:14px;
+    border-bottom: 1px solid #ccc;
+    background: #f0f0f0;
+}
+.header_subnav a{
+    padding: 6px 0 6px 22px;
+    color: #555;
+}
+.header_subnav li:hover{
+    background: #fffaed;
+    color: #c20525;
+}
+.header_subnav li:hover a{
+    color: #c20525;
+}
+
+/*头部左边修饰*/
+.header_left .header_wujiao{
+    padding-left: 24px;
+    background: url(../img/wujiaoxing.jpg) left top no-repeat;
+}
+.com_sele_bg{
+    margin-left: 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../img/sele_hei.jpg) center no-repeat;
+}
+/*头部右边基础样式*/
+.header_right{
+    float: right;
+    line-height: 26px;
+    color: #555555;
+}
+.header_right dd{
+    position: relative;
+    float: left;
+    padding: 0 10px;
+}
+.header_right em{
+    float: left;
+}
+
+
+
+
+
+
