@@ -16,10 +16,18 @@
 .xinwei_icon{
     background: url(../img/zhenghe.png) -83px -83px;
 }
-
-
-
-
+.pinzhi_icon{
+    background: url(../img/zhenghe.png) -43px -112px;
+}
+.tuihuan_icon{
+    background: url(../img/zhenghe.png) -43px -166px;
+}
+.tuikuan_icon{
+    background: url(../img/zhenghe.png) -43px -222px;
+}
+.phone_icon{
+    background: url(../img/zhenghe.png) -43px -282px;
+}
 
 
 

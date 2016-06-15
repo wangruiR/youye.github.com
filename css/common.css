@@ -48,6 +48,7 @@
     padding: 1px;
     background-color: #FFF;
     border: 1px solid #ccc;
+    z-index: 999;
 }
 
 .header_subnav li{
@@ -90,6 +91,7 @@
     position: relative;
     float: left;
     padding: 0 10px;
+    
 }
 .header_right em{
     float: left;
@@ -103,6 +105,7 @@
     padding: 1px;
     background-color: #FFF;
     border: 1px solid #ccc;
+    z-index: 999;
 }
 
 .header_right_subnav li{
@@ -131,7 +134,11 @@
     height: 26px;
     background: url(../img/header_qian.jpg) no-repeat;
 }
-
+.header_right i{
+    padding-right: 4px;
+    color: #d41f2b;
+    font-weight: 700;
+}
 /*公共logo部分*/
 .logo{
     position: relative;
@@ -154,6 +161,7 @@
     height: 30px;
     border: 2px solid #c20525;
     background: url(../img/search.jpg) left no-repeat;
+    z-index: 9;
 }
 .index_sea_input{
     display: inline;
@@ -183,10 +191,76 @@
     padding: 0 4px;
     color: #999999;
 }
+.index_hot_nav a:hover{
+    color: #c20525;
+}
 .index_logo_small{
     position: absolute;
     right: 0;
-    top: 0;
+    top: 20px;
+}
+.index_logo_small a{
+    display: inline-block;
+    float: left;
+    width: 74px;
+    height: 50px;
+}
+.index_logo_small span{
+    float: left;
+    margin-top: 10px;
+    height: 34px;
+    width: 1px;
+    background: #e6d8d8;
+}
+
+/*公共导航*/
+.index_nav{
+    height: 37px;
+    border-top: 1px solid #ddb9b9;
+    background: #cf1b1b;
+}
+.nav{
+    height: 37px;
+}
+.nav li{
+    position: relative;
+    float: left;
+    padding: 0 24px;
+    height: 37px;
+    line-height: 37px;
+}
+.nav li a{
+    font-size: 14px;
+    color: #fff;
+}
+.nav li:hover{
+    background: #9a1f1f;
+}
+.nav .action{
+    background: #9a1f1f;
+}
+.nav span{
+    float: left;
+    margin-top: 1px;
+    height: 34px;
+    width: 1px;
+    background: url(../img/nav_border.jpg);
+}
+.nav_hot{
+    position: absolute;
+    left: 70px;
+    top: -5px;
+    width: 52px;
+    height: 18px;
+    background: url(../img/hot.png) no-repeat;
+}
+.nav_ipad{
+    position: absolute;
+    left: 70px;
+    top: -5px;
+    width: 52px;
+    height: 18px;
+    background: url(../img/pardarr.png) no-repeat;
 }
 
 
