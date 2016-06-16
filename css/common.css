@@ -30,7 +30,7 @@
     float: left;
     padding: 0 10px;
 }
-.header_left .nav_fenge{
+.header_left .nan_fenge{
     float: left;
 }
 .header_left a{
@@ -46,7 +46,7 @@
 .header_tui{
 	padding-left: 8px;
 }
-.header_subnav{
+.header_subnan{
     display: none;
     position: absolute;
     left: -32px;
@@ -58,21 +58,21 @@
     z-index: 999;
 }
 
-.header_subnav li{
+.header_subnan li{
     width: 99px;
     padding-left:14px;
     border-bottom: 1px solid #ccc;
     background: #f0f0f0;
 }
-.header_subnav a{
+.header_subnan a{
     padding: 6px 0 6px 22px;
     color: #555;
 }
-.header_subnav li:hover{
+.header_subnan li:hover{
     background: #fffaed;
     color: #c20525;
 }
-.header_subnav li:hover a{
+.header_subnan li:hover a{
     color: #c20525;
 }
 
@@ -103,7 +103,7 @@
 .header_right em{
     float: left;
 }
-.header_right_subnav{
+.header_right_subnan{
     display: none;
     position: absolute;
     left: 0px;
@@ -115,24 +115,24 @@
     z-index: 999;
 }
 
-.header_right_subnav li{
+.header_right_subnan li{
     width: 73px;
     padding-left: 10px;
     border-bottom: 1px solid #ccc;
     background: #f0f0f0;
 }
-.header_right_subnav a{
+.header_right_subnan a{
     padding-left: 6px;
     color: #555;
 }
-.header_right_subnav li:hover{
+.header_right_subnan li:hover{
     background: #fffaed;
     color: #c20525;
 }
-.header_right_subnav li:hover a{
+.header_right_subnan li:hover a{
     color: #c20525;
 }
-.header_right_subnav .header_rig_su_dd{
+.header_right_subnan .header_rig_su_dd{
     padding: 6px 0 6px 20px;
 }
 .header_right .header_right_last{
@@ -190,15 +190,15 @@
     color: #fff;
     border-left: 1px solid #c20525;
 }
-.index_hot_nav{
+.index_hot_nan{
     float: left;
     margin: 6px 0 0 16px;
 }
-.index_hot_nav a{
+.index_hot_nan a{
     padding: 0 4px;
     color: #999999;
 }
-.index_hot_nav a:hover{
+.index_hot_nan a:hover{
     color: #c20525;
 }
 .index_logo_small{
@@ -221,15 +221,15 @@
 }
 
 /*公共导航*/
-.index_nav{
+.index_nan{
     height: 37px;
     border-top: 1px solid #ddb9b9;
     background: #cf1b1b;
 }
-.nav{
+.nan{
     height: 37px;
 }
-.nav li{
+.nan li{
     position: relative;
     float: left;
     padding: 0 24px;
@@ -237,24 +237,24 @@
     line-height: 37px;
     
 }
-.nav li a{
+.nan li a{
     font-size: 14px;
     color: #fff;
 }
-.nav li:hover{
+.nan li:hover{
     background: #9a1f1f;
 }
-.nav .action{
+.nan .action{
     background: #9a1f1f;
 }
-.nav span{
+.nan span{
     float: left;
     margin-top: 1px;
     height: 34px;
     width: 1px;
-    background: url(../img/nav_border.jpg);
+    background: url(../img/nan_border.jpg);
 }
-.nav_hot{
+.nan_hot{
     position: absolute;
     left: 70px;
     top: -5px;
@@ -263,7 +263,7 @@
     background: url(../img/hot.png) no-repeat;
     z-index: 999999;
 }
-.nav_ipad{
+.nan_ipad{
     position: absolute;
     left: 70px;
     top: -5px;
@@ -364,19 +364,19 @@
     height: 30px;
     line-height: 30px;
 }
-/*footer的导航nav*/
-.footer_nav{
+/*footer的导航nan*/
+.footer_nan{
     height: 36px;
     background: #d31c28;
     line-height: 36px;
     text-align: center;
     color: #fff;
 }
-.footer_nav a{
+.footer_nan a{
     padding: 0 16px;
     color: #fff;
 }
-.footer_nav a:hover{
+.footer_nan a:hover{
     color: #000;
 }
 .footer_banben{
@@ -460,7 +460,7 @@
     overflow: hidden;
     background: #e6e6e6;
 }
-.index_ls_nav li{
+.index_ls_nan li{
     position: relative;
     width: 95px;
     height: 40px;
@@ -472,7 +472,7 @@
     cursor: pointer;
     background: #fff;
 }
-.index_ls_nav i{
+.index_ls_nan i{
     /*display: none;*/
     position: absolute;
     width: 95px;
@@ -480,7 +480,7 @@
     left: 1px;
     top: 1px;
 }
-.index_ls_nav span{
+.index_ls_nan span{
     display: none;
     position: absolute;
     width: 95px;
@@ -488,7 +488,7 @@
     left: 1px;
     top: 1px;
 }
-.index_ls_nav li:hover{
+.index_ls_nan li:hover{
     border: 1px solid #a90a0a;
 }
 /*侧边广告栏*/
@@ -499,13 +499,13 @@
     margin-right: -600px;
     width: 100px;
 }
-.index_ad_nav{
+.index_ad_nan{
     width: 98px;
     border: 1px solid #e1e1e1;
     border-top: 2px solid #cf1321;
     background-color: #fffaf6;
 }
-.index_ad_nav li{
+.index_ad_nan li{
     border-bottom: 1px dashed #e1e1e1;
     line-height: 20px;
     display: block;
@@ -513,17 +513,17 @@
     padding: 3px 0;
     text-align: center;
 }
-.index_ad_nav li a{
+.index_ad_nan li a{
     display: block;
     text-indent: -9999px;
     width: 90px;
 }
-.index_ad_nav .index_ad_last{
+.index_ad_nan .index_ad_last{
     padding: 0;
     margin: 0;
     border: none;
 }
-.index_ad_nav .index_ad_last a{
+.index_ad_nan .index_ad_last a{
     padding: 0;
     margin: 0;
     width: 100%;
