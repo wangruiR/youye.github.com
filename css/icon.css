@@ -55,17 +55,57 @@
 .aslide_shop_icon{
     background: url(../img/slide_bg.png) 3px -73px;
 }
-
-
-
-
-
-
-
-
-
-
-
+.index_lsshouAct_icon{
+    background: url(../img/index_ls_zheng.png);
+}
+.index_lsshou_icon{
+    background: url(../img/index_ls_shouye.jpg);
+}
+.index_lsshop_icon{
+    background: url(../img/index_ls_zheng.png) 0 -44px;
+}
+.index_lsnv_icon{
+    background: url(../img/index_ls_zheng.png) 0 -90px;
+}
+.index_lsnan_icon{
+    background: url(../img/index_ls_zheng.png) 0 -134px;
+}
+.index_lsshoe_icon{
+     background: url(../img/index_ls_zheng.png) 0 -180px;
+}
+.index_lsjia_icon{
+    background: url(../img/index_ls_zheng.png) 0 -230px;
+}
+.index_lsfood_icon{
+    background: url(../img/index_ls_zheng.png) 0 -272px;
+}
+.index_lshui_icon{
+    background: url(../img/huiding_btn.jpg);
+}
+.index_adding_icon{
+    height: 50px;
+    background: url(../img/guanggao_zheng.png)0 -62px;
+}
+.index_adkefu_icon{
+    height: 22px;
+    background: url(../img/guanggao_zheng.png) -21px -36px;
+}
+.index_adcha_icon{
+    height: 48px;
+    background: url(../img/guanggao_zheng.png)-94px -60px;
+}
+.index_adshou_icon{
+    height: 42px;
+    background: url(../img/guanggao_zheng.png)0px -107px;
+}
+.index_adqian_icon{
+    height: 44px;
+    background: url(../img/guang_qiandao.jpg);
+}
+.index_adhui_icon{
+    height: 26px;
+    background: url(../img/guanggao_zheng.png)-94px -110px;
+}
 
 
 

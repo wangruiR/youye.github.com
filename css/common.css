@@ -39,6 +39,13 @@
 .header_left a:hover{
     color: #c20525;
 }
+.header_user{
+	color: #C20525;
+	padding-right: 4px;
+}
+.header_tui{
+	padding-left: 8px;
+}
 .header_subnav{
     display: none;
     position: absolute;
@@ -228,6 +235,7 @@
     padding: 0 24px;
     height: 37px;
     line-height: 37px;
+    
 }
 .nav li a{
     font-size: 14px;
@@ -253,6 +261,7 @@
     width: 52px;
     height: 18px;
     background: url(../img/hot.png) no-repeat;
+    z-index: 999999;
 }
 .nav_ipad{
     position: absolute;
@@ -261,6 +270,7 @@
     width: 52px;
     height: 18px;
     background: url(../img/pardarr.png) no-repeat;
+    z-index: 99;
 }
 
 /*footer公共底部*/
@@ -301,13 +311,16 @@
 .footer_service dd a{
     color: #999999;
 }
+.footer_service dd a:hover{
+    color: #666;
+}
 .footer_head .fist_child{
     border-left: none;
 }
 .footer_service_last{
     display: inline;
     width: 250px;
-    
+    border-right: none;
 }
 .footer_service_last dd{
     margin-left: 46px;
@@ -362,6 +375,9 @@
 .footer_nav a{
     padding: 0 16px;
     color: #fff;
+}
+.footer_nav a:hover{
+    color: #000;
 }
 .footer_banben{
     height: 152px;
@@ -437,18 +453,81 @@
     text-align: center;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.index_l_slide{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #e6e6e6;
+}
+.index_ls_nav li{
+    position: relative;
+    width: 95px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #a90a0a;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+    cursor: pointer;
+    background: #fff;
+}
+.index_ls_nav i{
+    /*display: none;*/
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    left: 1px;
+    top: 1px;
+}
+.index_ls_nav span{
+    display: none;
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    left: 1px;
+    top: 1px;
+}
+.index_ls_nav li:hover{
+    border: 1px solid #a90a0a;
+}
+/*侧边广告栏*/
+.index_advert{
+    position: fixed;
+    top: 200px;
+    right: 50%;
+    margin-right: -600px;
+    width: 100px;
+}
+.index_ad_nav{
+    width: 98px;
+    border: 1px solid #e1e1e1;
+    border-top: 2px solid #cf1321;
+    background-color: #fffaf6;
+}
+.index_ad_nav li{
+    border-bottom: 1px dashed #e1e1e1;
+    line-height: 20px;
+    display: block;
+    margin: 0 5px;
+    padding: 3px 0;
+    text-align: center;
+}
+.index_ad_nav li a{
+    display: block;
+    text-indent: -9999px;
+    width: 90px;
+}
+.index_ad_nav .index_ad_last{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.index_ad_nav .index_ad_last a{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
 
 
 

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="../css/common.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/icon.css" />
+    <script src="../js/jquery-2.0.0.min.js"></script>
+</head>
+<body style="background: #f3f1f4;">
+    <!--注册页面头部-->
+    <div class="re_header com_wd">
+        <a href="../index.html" class="re_h_logo"></a>
+        <a href="login.html" class="re_h_login">
+            已注册？
+            <span>登录</span>
+        </a>
+    </div>
+    
+    <!--注册页面主内容-->
+    <div class="re_main com_wd">
+        <div class="re_ma_left">
+            <div class="re_ma_form">
+                <h3 class="re_ma_title">欢迎您欢迎加入步淘网，注册只需15秒，超值优惠每天享受！</h3>
+                <form id="register">
+                    <p class="re_form_box">
+                        <label for="email">邮箱：</label>
+                        <input type="text" name="email" autocomplete="off" />
+                        <em class="re_form_err"></em>
+                        <span>请输入邮箱</span>
+                    </p>
+                    <p class="re_form_box">
+                        <label for="user">用户名：</label>
+                        <input type="text" name="user" autocomplete="off" />
+                        <em class="re_form_err"></em>
+                        <span>用户名为4-16个字符以上</span>
+                    </p>
+                    <p class="re_form_box">
+                        <label for="pwd">密码：</label>
+                        <input type="password" name="pwd" />
+                        <em class="re_form_err"></em>
+                        <span>为啦账户安全起见，建议最少为6个字符以上!</span>
+                    </p>
+                    <p class="re_form_box">
+                        <label for="qr_pwd">确认密码：</label>
+                        <input type="password" name="qr_pwd" />
+                        <em class="re_form_err"></em>
+                        <span>两次输入密码不一致！</span>
+                    </p>
+                    <p class="re_form_check">
+                        <input type="checkbox" name="re_check">
+                        <span>我已阅读并接受<a class="re_form_xie">《步淘网用户协议》</a></span>
+                    </p>
+                    <input type="submit" name="re_f_btn" class="re_f_btn" value="" />
+                </form>
+                <div class="re_f_bottom">
+                    <h4>您也可以用合作网站帐号登录步淘:</h4>
+                    <a href="#"><img src="../img/re_zhifubao.png" /></a>
+                    <a href="#"><img src="../img/re_xinlang.png" /></a>
+                    <a href="#"><img src="../img/re_qq.png" /></a>
+                    <a href="#"><img src="../img/re_360.png" /></a>
+                    <a href="#"><img src="../img/re_baidu.png" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="re_ma_right lo_ma_right"></div>
+    </div>
+    <script src="../js/register.js"></script>
+    
+    
+    <!--footer底部-->
+    <div class="footer clearfix">
+        <!--footer的service-->
+        <div class="footer_head com_wd">
+            <dl class="footer_service fist_child">
+                <dt class="footer_help_icon">用户帮助</dt>
+                <dd><a href="#">玩转步淘商城</a></dd>
+                <dd><a href="#">生活商城常见意见</a></dd>
+                <dd><a href="#">网站的保障计划</a></dd>
+                <dd><a href="#">本站意见建议</a></dd>
+            </dl>
+            <dl class="footer_service">
+                <dt class="footer_shop_icon">购物相关</dt>
+                <dd><a href="#">网站购物向导</a></dd>
+                <dd><a href="#">本站订单操作</a></dd>
+                <dd><a href="#">汇款&转账</a></dd>
+                <dd><a href="#">验收与签收</a></dd>
+            </dl>
+            <dl class="footer_service">
+                <dt class="footer_work_icon">商务合作</dt>
+                <dd><a href="#">本站商户入驻</a></dd>
+                <dd><a href="#">本站商户登录</a></dd>
+                <dd><a href="#">本站合作案例</a></dd>
+                <dd><a href="#">步淘友情链接</a></dd>
+            </dl>
+            <dl class="footer_service">
+                <dt class="footer_about_icon">关于步淘</dt>
+                <dd><a href="#">关于步淘商城</a></dd>
+                <dd><a href="#">步淘商城聘英才</a></dd>
+                <dd><a href="#">联系步淘网</a></dd>
+                <dd><a href="#">生活商城用户协议</a></dd>
+            </dl>
+            <dl class="footer_service footer_service_last">
+                <dt class="footer_help_icon">客服热线<em>(免长途费)</em></dt>
+                <dd class="footer_sl_phone"></dd>
+                <dd class="footer_sl_kefu"><a><span>QQ在线客服</span><img src="../img/qq_qy.png"/></a></dd>
+                <dd class="footer_sl_work"><a href="#">(周一到周日：8:30-18:00)</a></dd>
+            </dl>
+        </div>
+        <!--footer导航nav-->
+        <div class="footer_nav">
+            <a class="#">关于步淘网</a>
+            <span>|</span>
+            <a class="#">联系我们</a>
+            <span>|</span>
+            <a class="#">网站诚聘英才</a>
+            <span>|</span>
+            <a class="#">友情链接</a>
+            <span>|</span>
+            <a class="#">隐私条款</a>
+            <span>|</span>
+            <a class="#">网站地图</a>
+        </div>
+        <!--版本信息-->
+        <div class="footer_banben">
+            <div class="footer_bq">Copyright @ 2010-2012 butao.com All Rights Reserved 版权所有 浙B2-20090126-17</div>
+            <p>
+                <a href="javascript:void(0)" title="wang"><img src="../img/wangluorenzheng.jpg" /></a>
+                <a href="javascript:void(0)" title="zhifubao"><img src="../img/zhifubao.jpg" /></a>
+                <a href="javascript:void(0)" title="360"><img src="../img/360_icon.jpg" /></a>
+                <a href="javascript:void(0)" title="360"><img src="../img/360wangzhan.jpg" /></a>
+            </p>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--广告栏advert-->
+    <div class="index_advert">
+        <ul class="index_ad_nav" id="index_ad_nav">
+            <li><a class="index_adding_icon" href="#">111</a></li>
+            <li><a class="index_adkefu_icon" href="#"></a></li>
+            <li><a class="index_adcha_icon" href="#"></a></li>
+            <li><a class="index_adshou_icon" href="#"></a></li>
+            <li><a class="index_adqian_icon" href="#"></a></li>
+            <li class="index_ad_last"><a class="index_adhui_icon" href="#"></a></li>
+        </ul>
+    </div>
+    <script src="../js/index_advert.js"></script>
+    
+    
+</body>
+</html>
