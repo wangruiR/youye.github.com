@@ -28,6 +28,44 @@
 .phone_icon{
     background: url(../img/zhenghe.png) -43px -282px;
 }
+.footer_help_icon{
+    background: url(../img/footer_nav_zhenghe.png) 0 5px no-repeat;
+}
+.footer_shop_icon{
+    background: url(../img/footer_nav_zhenghe.png) 0 -46px no-repeat;
+}
+.footer_work_icon{
+    background: url(../img/footer_nav_zhenghe.png) 0 -93px no-repeat;
+}
+.footer_about_icon{
+    background: url(../img/footer_nav_zhenghe.png) 0 -144px no-repeat;
+}
+.footer_help_icon{
+    background: url(../img/footer_nav_zhenghe.png) 0 5px no-repeat;
+}
+.aslide_wode_icon{
+    background: url(../img/slide_bg.png) 2px 0;
+}
+.aslide_xiaoxi_icon{
+    background: url(../img/slide_bg.png) 2px -23px;
+}
+.aslide_kefu_icon{
+    background: url(../img/slide_bg.png) 2px -46px;
+}
+.aslide_shop_icon{
+    background: url(../img/slide_bg.png) 3px -73px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
