@@ -37,7 +37,7 @@ $(function(){
 					}else{
 						$.cookie("user",$("input[name=user]").val(),{path:"/"});
 					}
-					location.href="../index.html";
+					history.back(-1);
 				}
 			}
 		});
