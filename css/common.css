@@ -252,7 +252,7 @@
     margin-top: 1px;
     height: 34px;
     width: 1px;
-    background: url(../img/nan_border.jpg);
+    background: url(../img/nav_border.jpg);
 }
 .nan_hot{
     position: absolute;
@@ -496,7 +496,7 @@
     position: fixed;
     top: 200px;
     right: 50%;
-    margin-right: -600px;
+    margin-right: -606px;
     width: 100px;
 }
 .index_ad_nan{
@@ -534,8 +534,201 @@
 
 
 .main{
-    height: 600px;
+    overflow: hidden;
 }
+
+/*首页公共盒子*/
+.index_com_box{
+    
+}
+/*首页公共大标题*/
+.index_com_tit{
+    margin: 20px 0;
+    line-height: 40px;
+    height: 40px;
+}
+.in_comtit_tit{
+    float: left;
+    margin-left: 48px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    width: 86px;
+}
+.in_comtit_nav{
+    float: left;
+}
+.in_comtit_nav li{
+    float: left;
+    padding-left: 10px;
+}
+.in_comtit_nav a{
+    color: #494747;
+}
+.in_comtit_nav a:hover{
+    color: #e70012;
+}
+.index_com_box .red{
+    color: #e70012;
+}
+.in_comtit_more{
+    float: right;
+}
+.in_comtit_more:hover{
+    color: #e70012;
+}
+/*公共商品展示*/
+.com_nav{
+    min-height: 300px;
+    height: auto!important;
+    height: 300px;
+    overflow: hidden;
+    width: 1080px;
+}
+.com_nav li{
+    float: left;
+    margin: 0 18px 10px 0;
+    padding: 10px;
+    height: 280px;
+    width: 298px;
+    border: 1px solid #d7d3d3;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.com_nav li:hover{
+    border: 1px solid #999;
+}
+.com_nl_img{
+    width: 300px;
+    height: 186px;
+    overflow: hidden;
+}
+.com_nl_img img{
+    width: 300px;
+    -webkit-transition:all 1s; 
+	-moz-transition:all 1s; 
+	-o-transition:all 1s; 
+}
+.com_nav li:hover img{
+    transform: scale(1.08);
+    -webkit-transtion:scale(1.08);
+    -moz-transtion:scale(1.08);
+    -o-transtion:scale(1.08);
+}
+.com_nl_tit{
+    margin-top: 6px;
+    height: 44px;
+    line-height: 22px;
+    font-size: 12px;
+}
+.com_nl_tit a{
+    color: #343434;
+}
+.com_nl_contain{
+    height: 44px;
+}
+.com_nl_price{
+    float: left;
+    height: 44px;
+    width: 84px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: 800;
+}
+.com_nl_smlcon{
+    float: left;
+    margin-top: 10px;
+    width:100px;
+    height: 36px;
+    line-height: 18px;
+    color: #a49e9e;
+}
+.com_nl_oldprice{
+	width: 100px;
+}
+.com_nl_oldprice i{
+    text-decoration: line-through;
+}
+.com_nl_oldprice em{
+    text-decoration: none;
+    color: #ff0000;
+    white-space: nowrap;
+}
+.com_nl_stutas{
+	display: block;;
+	width: 100px;
+}
+.com_nl_btn{
+    float: right;
+    margin: 14px 10px 0 0;
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #e70012;
+    color: #fff;
+}
+.com_nl_btn:hover{
+    background: #cd0616;
+    box-shadow: 0 0 10px #bbb;
+}
+/*公共盒子广告展示*/
+.index_com_show{
+    margin-bottom: 16px;
+    overflow: hidden;
+    width: 1020px;
+}
+.index_cs_imgshow{
+    float: left;
+    width: 534px;
+    height: 290px;
+}
+.index_cs_imgshow img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.index_cs_nav{
+    display: inline;
+    float: left;
+    height: 290px;
+    width: 480px;
+}
+.index_cs_nav li{
+    display: inline;
+    margin-right: 5px;
+    float: left;
+    width: 226px;
+    height: 286px;
+    padding: 2px;
+    text-align: center;
+    border-right: 1px solid #eee;
+    overflow: hidden;
+}
+.index_cs_tit{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.index_cs_msg{
+    color: #757575;
+}
+.index_cs_subshow{
+    display: block;
+    width: 226px;
+    height: 240px;
+}
+.index_cs_subshow img{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 

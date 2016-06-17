@@ -106,8 +106,15 @@
     height: 26px;
     background: url(../img/guanggao_zheng.png)-94px -110px;
 }
-
-
+.main_d_zheng{
+    background: url(../img/main_d_zheng.jpg) no-repeat left;
+}
+.main_d_yuihuan{
+    background: url(../img/main_d_yuihuan.jpg)no-repeat left;
+}
+.main_d_jifen{
+    background: url(../img/main_d_jifen.jpg)no-repeat left;
+}
 
 
 

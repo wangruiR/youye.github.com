@@ -9,6 +9,7 @@
     <link type="text/css" rel="stylesheet" href="css/icon.css" />
     <script src="js/jquery-2.0.0.min.js"></script>
     <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.getdata.js"></script>
 </head>
 <body>
     <!--header头部-->
@@ -108,12 +109,289 @@
         <a href="#"></a>
     </div>
     <!--main主页面-->
-    <div class="main"></div>
-    
+    <div class="main com_wd">
+    	<!--首页公共盒子-->
+        <div class="index_com_box">
+            <div class="index_com_tit index_hot">
+                <h4 class="in_comtit_tit">热卖商品</h4>
+                <ul class="in_comtit_nav">
+                   <li><a class="red" href="">服装配饰</a></li>
+                    <li><a class="red" href="">箱包鞋靴</a></li>
+                    <li><a href="">化妆护理</a></li>
+                    <li><a class="red" href="">母婴玩具</a></li>
+                    <li><a href="">食品保健</a></li>
+                    <li><a class="red" href="">家居百货</a></li>
+                    <li><a href="">运动护理</a></li>
+                    <li><a href="">其他</a></li>
+                </ul>
+                <a href="#" class="in_comtit_more">更多</a>
+            </div>
+            <div class="com_nav" id="index_hot">
+                <ul class="com_nav_list">
+                   <!-- <li>
+                        <div class="com_nl_img">
+                            <img src="img/hot/13981602589511.jpg" />
+                        </div>
+                        <h3 class="com_nl_tit"><a>全国包邮】仅19.9元，享原价139元可爱女人2014春夏新品鱼嘴欧洲时尚内增...</a></h3>
+                        <div class="com_nl_contain">
+                            <span class="com_nl_price">￥19.90</span>
+                            <div class="com_nl_smlcon">
+                                <span class="com_nl_oldprice"><i>￥139.00</i><em>(1.4折)</em></span>
+                                <span class="com_nl_stutas">新品上市</span>
+                            </div>
+                            <a class="com_nl_btn">立即购买</a>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <!--首页公共盒子-->
+        <div class="index_com_box">
+            <div class="index_com_tit index_nv">
+                <h4 class="in_comtit_tit">热卖女装</h4>
+                <ul class="in_comtit_nav">
+                    <li><a class="red" href="">羽绒服/棉衣</a></li>
+                    <li><a class="red" href="">毛衣</a></li>
+                    <li><a class="red" href="">外套</a></li>
+                    <li><a href="">针织衫</a></li>
+                    <li><a href="">打底裤</a></li>
+                    
+                </ul>
+                <a href="#" class="in_comtit_more">查看更多热卖产品</a>
+            </div>
+            <div class="index_com_show" id="index_show_nv">
+                <!--<a class="index_cs_imgshow">
+                    <img src="img/nv/index_49.jpg" />
+                </a>-->
+                <!--<ul class="index_cs_nav">
+                    <li>
+                        <h4 class="index_cs_tit">夏装新款清凉T恤</h4>
+                        <span class="index_cs_msg">森马打底衫简约情侣装百搭T恤</span>
+                        <a class="index_cs_subshow"><img src="img/nv/14641638584609.jpg" /></a>
+                    </li>
+                </ul>-->
+            </div>
+            <div class="com_nav" id="index_nv">
+                <ul class="com_nav_list">
+                    <!--<li>
+                        <div class="com_nl_img">
+                            <img src="img/hot/13981602589511.jpg" />
+                        </div>
+                        <h3 class="com_nl_tit"><a>全国包邮】仅19.9元，享原价139元可爱女人2014春夏新品鱼嘴欧洲时尚内增...</a></h3>
+                        <div class="com_nl_contain">
+                            <span class="com_nl_price">￥19.90</span>
+                            <div class="com_nl_smlcon">
+                                <span class="com_nl_oldprice"><i>￥139.00</i><em>(1.4折)</em></span>
+                                <span class="com_nl_stutas">新品上市</span>
+                            </div>
+                            <a class="com_nl_btn">立即购买</a>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <!--首页公共盒子-->
+        <div class="index_com_box">
+            <div class="index_com_tit index_nanshow">
+                <h4 class="in_comtit_tit">热卖男装</h4>
+                <ul class="in_comtit_nav">
+                    <li><a class="red" href="">棉衣</a></li>
+                    <li><a class="red" href="">针织衫</a></li>
+                    <li><a href="">T恤</a></li>
+                    <li><a href="">牛仔裤</a></li>
+                    
+                </ul>
+                <a href="#" class="in_comtit_more">查看更多热卖产品</a>
+            </div>
+            <div class="index_com_show" id="index_show_nan">
+                <!--<a class="index_cs_imgshow">
+                    <img src="img/nv/index_49.jpg" />
+                </a>-->
+                <!--<ul class="index_cs_nav">
+                    <li>
+                        <h4 class="index_cs_tit">夏装新款清凉T恤</h4>
+                        <span class="index_cs_msg">森马打底衫简约情侣装百搭T恤</span>
+                        <a class="index_cs_subshow"><img src="img/nv/14641638584609.jpg" /></a>
+                    </li>
+                </ul>-->
+            </div>
+            <div class="com_nav" id="index_nan">
+                <ul class="com_nav_list">
+                    <!--<li>
+                        <div class="com_nl_img">
+                            <img src="img/hot/13981602589511.jpg" />
+                        </div>
+                        <h3 class="com_nl_tit"><a>全国包邮】仅19.9元，享原价139元可爱女人2014春夏新品鱼嘴欧洲时尚内增...</a></h3>
+                        <div class="com_nl_contain">
+                            <span class="com_nl_price">￥19.90</span>
+                            <div class="com_nl_smlcon">
+                                <span class="com_nl_oldprice"><i>￥139.00</i><em>(1.4折)</em></span>
+                                <span class="com_nl_stutas">新品上市</span>
+                            </div>
+                            <a class="com_nl_btn">立即购买</a>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <!--首页公共盒子-->
+        <div class="index_com_box">
+            <div class="index_com_tit index_xie">
+                <h4 class="in_comtit_tit">精品鞋包</h4>
+                <ul class="in_comtit_nav">
+                    <li><a class="red" href="">流行男鞋</a></li>
+                    <li><a class="red" href="">时尚女鞋</a></li>
+                    <li><a class="red" href="">雪地鞋</a></li>
+                    <li><a href="">功能箱包</a></li>
+                    <li><a href="">时旅行箱包</a></li>
+                    <li><a href="">精品男包</a></li>
+                    <li><a class="red" href="">流行女包</a></li>
+                </ul>
+                <a href="#" class="in_comtit_more">查看更多热卖产品</a>
+            </div>
+            <div class="index_com_show" id="index_show_xie">
+                <!--<a class="index_cs_imgshow">
+                    <img src="img/nv/index_49.jpg" />
+                </a>-->
+                <!--<ul class="index_cs_nav">
+                    <li>
+                        <h4 class="index_cs_tit">夏装新款清凉T恤</h4>
+                        <span class="index_cs_msg">森马打底衫简约情侣装百搭T恤</span>
+                        <a class="index_cs_subshow"><img src="img/nv/14641638584609.jpg" /></a>
+                    </li>
+                </ul>-->
+            </div>
+            <div class="com_nav" id="index_xie">
+                <ul class="com_nav_list">
+                    <!--<li>
+                        <div class="com_nl_img">
+                            <img src="img/hot/13981602589511.jpg" />
+                        </div>
+                        <h3 class="com_nl_tit"><a>全国包邮】仅19.9元，享原价139元可爱女人2014春夏新品鱼嘴欧洲时尚内增...</a></h3>
+                        <div class="com_nl_contain">
+                            <span class="com_nl_price">￥19.90</span>
+                            <div class="com_nl_smlcon">
+                                <span class="com_nl_oldprice"><i>￥139.00</i><em>(1.4折)</em></span>
+                                <span class="com_nl_stutas">新品上市</span>
+                            </div>
+                            <a class="com_nl_btn">立即购买</a>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <!--首页公共盒子-->
+        <div class="index_com_box">
+            <div class="index_com_tit index_jia">
+                <h4 class="in_comtit_tit">家居家纺</h4>
+                <ul class="in_comtit_nav">
+                    <li><a class="red" href="">流精品家纺</a></li>
+                    <li><a class="red" href="">时居家日用</a></li>
+                    <li><a href="">家居饰品</a></li>
+                    
+                </ul>
+                <a href="#" class="in_comtit_more">查看更多热卖产品</a>
+            </div>
+            <div class="index_com_show" id="index_show_jia">
+                <!--<a class="index_cs_imgshow">
+                    <img src="img/nv/index_49.jpg" />
+                </a>-->
+                <!--<ul class="index_cs_nav">
+                    <li>
+                        <h4 class="index_cs_tit">夏装新款清凉T恤</h4>
+                        <span class="index_cs_msg">森马打底衫简约情侣装百搭T恤</span>
+                        <a class="index_cs_subshow"><img src="img/nv/14641638584609.jpg" /></a>
+                    </li>
+                </ul>-->
+            </div>
+        </div>
+        <!--首页公共盒子-->
+        <div class="index_com_box">
+            <div class="index_com_tit index_food">
+                <h4 class="in_comtit_tit">美食特产</h4>
+                <ul class="in_comtit_nav">
+                    <li><a class="red" href="">流休闲零食</a></li>
+                    <li><a class="red" href="">时鲜货肉类</a></li>
+                    <li><a href="">特产</a></li>
+                    
+                </ul>
+                <a href="#" class="in_comtit_more">查看更多热卖产品</a>
+            </div>
+            <div class="index_com_show" id="index_show_food">
+                <!--<a class="index_cs_imgshow">
+                    <img src="img/nv/index_49.jpg" />
+                </a>-->
+                <!--<ul class="index_cs_nav">
+                    <li>
+                        <h4 class="index_cs_tit">夏装新款清凉T恤</h4>
+                        <span class="index_cs_msg">森马打底衫简约情侣装百搭T恤</span>
+                        <a class="index_cs_subshow"><img src="img/nv/14641638584609.jpg" /></a>
+                    </li>
+                </ul>-->
+            </div>
+        </div>
+        <!--首页主内容底部-->
+        <div class="index_footer">
+            <div class="index_f_tit">
+                <a href="#">商品分类</a>
+            </div>
+            <ul class="index_f_nav">
+                <li>
+                    <p>服装配饰</p>
+                    <img src="img/mian_f_12s.jpg" />
+                    <a href="#">精品男装</a>
+                    <a href="#">品牌女装</a>
+                    <a href="#">精致内衣</a>
+                    <a href="#">服装配件</a>
+                </li>
+                <li>
+                    <p>箱包鞋靴</p>
+                    <img src="img/main_f_1.jpg" />
+                    <a href="#">流行男鞋</a>
+                    <a href="#">时尚女鞋</a>
+                    <a href="#">功能箱包</a>
+                    <a href="#">潮流女包</a>
+                </li>
+                <li>
+                    <p>母婴玩具</p>
+                    <img src="img/main_f_2.jpg" />
+                    <a href="#">童装童鞋</a>
+                    <a href="#">玩具</a>
+                    <a href="#">孕妇用品</a>
+                    <a href="#">幼婴用品</a>
+                </li>
+                <li>
+                    <p>食品保健</p>
+                    <img src="img/main_f_3.jpg" />
+                    <a href="#">休闲零食</a>
+                    <a href="#">鲜活肉类</a>
+                    <a href="#">矿产</a>
+                    <a href="#">保健食品</a>
+                </li>
+                <li>
+                    <p>家居百货</p>
+                    <img src="img/main_f_4.jpg" />
+                    <a href="#">厨卫用品</a>
+                    <a href="#">居家日用</a>
+                    <a href="#">生活电器</a>
+                    <a href="#">家纺</a>
+                </li>
+                <li>
+                    <p>运动户外</p>
+                    <img src="img/main_f_5.jpg" />
+                    <a href="#">户外装备</a>
+                    <a href="#">运动用品</a>
+                    <a href="#">运动鞋服</a>
+                    <a href="#">其他</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/alone/index.js"></script>
     
     
     <!--footer底部-->
-    <div class="footer">
+    <div class="footer clearfix">
         <!--footer的service-->
         <div class="footer_head com_wd">
             <dl class="footer_service fist_child">
@@ -204,7 +482,7 @@
     <!--侧边栏基础按钮-->
     <div class="index_l_slide">
         <ul class="index_ls_nan" id="index_ls_nan">
-            <li>
+            <li class="index_ls_first">
                 <span class="index_lsshou_icon"></span>
                 <i class="index_lsshouAct_icon"></i>
             </li>

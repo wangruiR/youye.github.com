@@ -1,0 +1,11 @@
+$(function(){
+	$("#index_hot").dataLoad({url:"data/index_hot.json"});
+    $("#index_nv").dataLoad({url:"data/index_nv.json"});
+    $('#index_show_nv').dataTopLoad({url:"data/index_nv_top.json"});
+    $("#index_nan").dataLoad({url:"data/index_nan.json"});
+    $('#index_show_nan').dataTopLoad({url:"data/index_nan_top.json"});
+    $("#index_xie").dataLoad({url:"data/index_xie.json"});
+    $('#index_show_xie').dataTopLoad({url:"data/index_xie_top.json"});
+    $('#index_show_jia').dataTopLoad({url:"data/index_jia_top.json"});
+    $('#index_show_food').dataTopLoad({url:"data/index_food_top.json"});
+});
