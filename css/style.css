@@ -694,9 +694,126 @@
 	display: block;
 	width: 100%;
 }
-
-
-
+/*详细页面购买功能*/
+.deta_buy_bg{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 99;
+}
+.date_b_box{
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -215px;
+    background: #fff;
+    width: 500px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    z-index: 9999999;
+}
+.date_bb_top{
+    height: 20px;
+    line-height: 20px;
+    background-color: #f7f4f7;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px;
+}
+.date_bb_top h4{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d11824;
+}
+.date_bb_top a{
+    float: right;
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: url(../img/close.png) no-repeat left center;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.date_bb_sele{
+    width: 450px;
+    margin: 20px;
+    color: #666;
+}
+.date_bbs_list{
+    overflow: hidden;
+}
+.date_bbs_list dt{
+    width: 500px;
+    color: #000;
+    margin-bottom: 5px;
+    line-height: 22px;
+}
+.date_bbs_list dd{
+    clear: both;
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.date_bb_nav{
+    clear: both;
+}
+.date_bb_nav li{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dedede;
+    padding: 3px 6px;
+    line-height: 20px;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.date_bb_nav .action{
+    border: 1px solid #ff1800;
+    background: url(../img/shop_cart_current.png) no-repeat right bottom;
+}
+.dete_bb_shu{
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+}
+.date_bb_btn{
+    float: left;
+    width: 16px;
+    height: 24px;
+    line-height: 24px;
+    background: #cccccc;
+    text-align: center;
+    color: #666;
+}
+.date_bb_num{
+    float: left;
+    width: 60px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.date_bb_shop a{
+    margin: 20px 20px 0 0;
+    float: right;
+    height: 50px;
+    width: 170px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    background: #c40001;
+    color: #fff;
+}
+.date_bb_shop a:hover{
+    background: #a70707;
+}
 
 
 
