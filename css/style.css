@@ -253,6 +253,7 @@
 .main_d_tit{
     margin-top: 8px;
     line-height: 26px;
+    height: 52px;
     font-size: 20px;
     font-weight: 600;
     color: #333333;
@@ -262,10 +263,11 @@
     float: left;
     height: 280px;
     width: 438px;
+    overflow: hidden;
 }
 .main_d_left img{
     width: 100%;
-    height: 100%;
+
 }
 .main_d_right{
     float: left;
@@ -608,12 +610,12 @@
 .main_dcl_show{
     display: block;
 }
-.main_dclb_tab{
+.main_dclb_ta{
     margin-bottom: 30px;
     height: 100px;
     line-height: 30px;
 }
-.main_dclb_tab dd{
+.main_dclb_ta dd{
     float:left;
     width: 350px;
 }    
@@ -680,8 +682,18 @@
 .main_dclb_tab span{
     padding: 4px 0 4px 25px;
 }
-
-
+.main_dclb_link{
+	display: block;
+	margin-left: 7px;
+}
+#main_dclb_show{
+	width: 700px;
+	overflow: hidden;
+}
+#main_dclb_show img{
+	display: block;
+	width: 100%;
+}
 
 
 

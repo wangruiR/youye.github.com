@@ -13,6 +13,7 @@ $(function(){
     });
     header_pan();
     
+    /*购买的退出的按钮*/
     $(document).on("click",function(evt){
     	if(evt.target.name=="header_tui"){
     		$.cookie("user",null,{path:"/"});
