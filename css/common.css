@@ -624,7 +624,7 @@
     font-size: 12px;
 }
 .com_nl_tit a{
-    color: #343434;
+    color: #666;
 }
 .com_nl_contain{
     height: 44px;
@@ -710,12 +710,15 @@
     overflow: hidden;
 }
 .index_cs_tit{
-    height: 30px;
-    line-height: 30px;
+    height: 24px;
+    line-height: 24px;
     font-size: 14px;
     font-weight: 700;
 }
 .index_cs_msg{
+    display: block;
+    height: 20px;
+    line-height: 20px;
     color: #757575;
 }
 .index_cs_subshow{

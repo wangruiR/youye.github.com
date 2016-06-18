@@ -407,13 +407,7 @@
     margin: 16px 0 52px 0;
     overflow: hidden;
 }
-.main_dc_left{
-    float: left;
-    overflow: hidden;
-    width: 746px;
-    height: 200px;
-    background: #fff;
-}
+
 .main_dc_right{
     float: right;
     min-height: 480px;
@@ -541,6 +535,157 @@
     background: url(../img/sift_buy_bg.png) no-repeat 0px -75px;
     text-indent: -9999px;
 }
+.main_dc_left{
+    float: left;
+    overflow: hidden;
+    width: 746px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}
+.main_dcl_top{
+    width: 746px;
+    height: 32px;
+    line-height: 32px;
+    background: url(../img/stuff_tab_bg.png) repeat-x 0px 0px;
+    background-color: #FFF;
+    border: 1px solid #e5e5e5;
+    padding: 1px;
+}
+.main_dclt_nav{
+    float: left;
+}
+.main_dclt_nav li{
+    float: left;
+    
+    color: #333;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.main_dclt_nav span{
+    margin-top: 1px;
+    float: left;
+    width: 2px;
+    height: 32px;
+    background: url(../img/stuff_tab_bg.png) repeat-x 0px -70px;
+}
+.main_dclt_nav li:hover{
+    background: url(../img/stuff_tab_bg.png) repeat-x 0px -35px;
+    color: #333;
+}
+.main_dclt_nav .action{
+    background: url(../img/stuff_tab_bg.png) repeat-x 0px -35px;
+    color: #333;
+}
+.main_dclt_nav .new{
+    display: inline-block;
+    width: 28px;
+    height: 16px;
+    background: url(../img/bg-new.png) no-repeat;
+}
+.main_dclt_buy{
+    float: left;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.main_dclt_buy em{
+    color: #d41f2b;
+}
+.main_dclt_qiang{
+    display: block;
+    float: right;
+    margin-right: 20px;
+    width: 150px;
+    height: 30px;
+    background: url(../img/buying.png) no-repeat;
+}
+.main_dcl_box{
+    display: none;
+    padding: 18px 16px;
+    min-height: 200px;
+    height: auto!important;
+    height: 200px;
+}
+.main_dcl_show{
+    display: block;
+}
+.main_dclb_tab{
+    margin-bottom: 30px;
+    height: 100px;
+    line-height: 30px;
+}
+.main_dclb_tab dd{
+    float:left;
+    width: 350px;
+}    
+.main_dclb_nav{
+    overflow: hidden;
+}
+.main_dclb_nav dd{
+    min-height: 60px;
+    height: auto!important;
+    height: 60px;
+    border-bottom: 1px solid #cccccc;
+}
+.main_dclb_nav .main_dclb_user{
+    float: left;
+    width: 610px;
+    height: 30px;
+    line-height: 30px;
+}
+.main_dclb_nav .main_dclb_common{
+    float: left;
+    width: 610px;
+    line-height: 30px;
+}
+.main_dclb_nav .main_dclb_ping{
+    float: right;
+    width: 60px;
+    height: 12px;
+}
+.main_dclb_nav .main_dclb_ping img{
+    float: left;
+    width: 11px;
+    height: 11px;
+}
+.main_dclb_btn{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+.main_dclb_tab{
+    width: 700px;
+    border: 1px solid #ddd;
+    color: #666;
+    line-height: 30px;
+    overflow: hidden;
+    margin: 10px auto;
+    
+}
+.main_dclb_tab th{
+    width: 110px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+    color: #666666;
+}
+.main_dclb_tab td{
+    width: 580px;
+    background-color: #F9F9F9;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.main_dclb_tab span{
+    padding: 4px 0 4px 25px;
+}
+
+
+
+
+
+
 
 
 
