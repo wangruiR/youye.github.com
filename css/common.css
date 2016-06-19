@@ -223,40 +223,135 @@
 /*公共导航*/
 .index_nan{
     height: 37px;
-    border-top: 1px solid #ddb9b9;
-    background: #cf1b1b;
+    border-bottom: 2px solid #feb862;
 }
+.menu{
+    position: relative;
+    float: left;
+}
+.menu_btn{
+    display: block;
+    width: 180px;
+    background: #cb351a;
+    line-height: 37px;
+    height: 37px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.menu_sublist{
+    position: absolute;
+    left: 0;
+    top: 37px;
+    z-index: 9999999;
+}
+.menu_list{
+    width: 180px;
+    overflow: hidden;
+    z-index: 9999999;
+}
+.menu_list li{
+    height: 53px;
+    width:180px;
+    background: #cb351a;
+    border-bottom: 1px solid #b82f17;
+    border-top: 1px solid #da5a44;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 999999999;
+}
+.menu_list li:hover{
+    background: #b63d28;
+}
+.menu_li{
+    height: 53px;
+    width:180px;
+    background: #cb351a;
+    z-index: 999999999;
+}
+.menu_img{
+    float: left;
+    display: inline-block;
+    width: 39px;
+    height: 49px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: right;
+    text-decoration: none;
+    background: url(../img/mage-menu-icon0.png);
+}
+.menu_tit{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    width: 100px;
+}
+.menu_tit a{
+    color: #fff;
+}
+.menu_titsaml{
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    width:100px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.menu_titsaml a{
+    color: #eca598;
+}
+.menu_jian{
+    float: right;
+    width: 20px;
+    font-size: 26px;
+    color: #fee8e4;
+    line-height: 53px;
+}
+.menu_showbox{
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 170px;
+    width: 500px;
+    height: 384px;
+    background: #fff;
+    z-index: 9999;
+}
+
+
+
+
+
+
+
+
+
 .nan{
+    float: left;
     height: 37px;
 }
 .nan li{
     position: relative;
     float: left;
-    padding: 0 24px;
+    padding: 0 14px;
     height: 37px;
     line-height: 37px;
     
 }
 .nan li a{
     font-size: 14px;
-    color: #fff;
+    color: #666;
 }
-.nan li:hover{
-    background: #9a1f1f;
+.nan li a:hover{
+    color: #cb351a;
 }
-.nan .action{
-    background: #9a1f1f;
-}
-.nan span{
-    float: left;
-    margin-top: 1px;
-    height: 34px;
-    width: 1px;
-    background: url(../img/nav_border.jpg);
+.nan .action a{
+    color: #cb351a;
 }
 .nan_hot{
     position: absolute;
-    left: 70px;
+    left: 40px;
     top: -5px;
     width: 52px;
     height: 18px;
@@ -265,7 +360,7 @@
 }
 .nan_ipad{
     position: absolute;
-    left: 70px;
+    left: 40px;
     top: -5px;
     width: 52px;
     height: 18px;

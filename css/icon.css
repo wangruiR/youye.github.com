@@ -133,6 +133,36 @@
 .dclb_th6{
     background: url(../img/dclb_th6.gif) no-repeat left;
 }
+.menu_muying{
+    background-position: 6px 8px;
+}
+.menu_caizhuang{
+    background-position: 6px -42px;
+}
+.menu_sheng{
+    background-position: 2px -90px;
+}
+.menu_ying{
+    background-position: 2px -142px;
+}
+.menu_mei{
+    background-position: 2px -190px;
+}
+.menu_bao{
+    background-position: 2px -246px;
+}
+.menu_shuma{
+     background-position: 2px -292px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

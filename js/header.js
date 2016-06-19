@@ -35,4 +35,34 @@ $(function(){
 	    }
     }
     
+    
+    /*导航*/
+    $(".menu_list li").on({
+        mouseover:function(){
+            $(this).stop().animate({"padding-left":"14"});
+            $(".menu_showbox").eq($(this).index()).show().stop().animate({"left":"180"},300);
+        },
+        mouseout:function(){
+            $(this).stop().animate({"padding-left":"0"});
+            $(".menu_showbox").eq($(this).index()).stop().animate({"left":"150"}).hide();
+        }
+    });
+    $(".menu_showbox").on({
+        mouseover:function(){
+            console.log($(this).index())
+            $(this).show();
+            $(this).stop().css({"left":"180px"});
+            $(".menu_list li").eq($(this).index()-2).stop().css({"padding-left":"14px"});
+        },
+        mouseout:function(){
+            $(".menu_list li").eq($(this).index()-2).animate({"padding-left":"0"});
+            $(this).stop().animate({"left":"150"}).hide();
+        }
+    });
+    
+    
+    
+    
+    
+    
 });
