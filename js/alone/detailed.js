@@ -15,13 +15,16 @@ $(function(){
     	}
     });
     
+    //alert(window.location.href);
+    
     var cartArr={
     	id:"",
     	color:"",
     	size:"",
     	num:''
     };
-    
+    var IDurl=window.location.href;
+    var GoodId=IDurl.substr(IDurl.indexOf("=")+1);
     $.ajax({
     	type:"get",
     	url:"../data/detail.json",
@@ -30,7 +33,7 @@ $(function(){
     		var data=res.data;
     		var html='';
     		for(var i in data){
-    			if($.cookie("GoodID")==data[i].id){
+    			if(GoodId==data[i].id){
     				$(".main_d_tit").eq(0).html(data[i].tit);
     				$(".main_d_left").find("img").attr("src",data[i].imgurl);
     				html+='<span class="main_d_price">￥'+data[i].price+'</span><div class="main_d_smlcon"><em>';

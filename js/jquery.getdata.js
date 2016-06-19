@@ -24,8 +24,7 @@
 					}
 					obj.find(".com_nav_list").html(html);
 					obj.find(".com_nav_list li").on("click",function(){
-						$.cookie("GoodID",$(this).attr("id"));
-						location.href="html/detailed.html";
+						location.href="html/detailed.html?id="+$(this).attr("id");
 					});
 				}
 			});
