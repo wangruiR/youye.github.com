@@ -1,0 +1,10 @@
+$(function(){
+    $(".menu").on({
+        mouseover:function(){
+            $(".menu_sublist").show();
+        },
+        mouseout:function(){
+             $(".menu_sublist").hide();
+        }
+    });
+})

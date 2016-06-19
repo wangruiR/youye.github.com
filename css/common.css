@@ -308,20 +308,34 @@
     color: #fee8e4;
     line-height: 53px;
 }
-.menu_showbox{
+.menu_show{
     display: none;
     position: absolute;
+    padding:10px 16px;
     top: 38px;
-    left: 170px;
-    width: 500px;
-    height: 384px;
+    left: 180px;
+    width: 468px;
+    height: 364px;
     background: #fff;
     z-index: 9999;
 }
-
-
-
-
+.menu_show p{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.menu_show strong{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+}
+.menu_show a{
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+}
+.menu_show .red{
+    color: red;
+}
 
 
 
