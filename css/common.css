@@ -602,10 +602,10 @@
 }
 /*侧边广告栏*/
 .index_advert{
-    position: fixed;
+    position: absolute;
     top: 200px;
     right: 50%;
-    margin-right: -606px;
+    margin-right: -610px;
     width: 100px;
 }
 .index_ad_nan{
