@@ -17,12 +17,6 @@ $(function(){
     
     //alert(window.location.href);
     
-    var cartArr={
-    	id:"",
-    	color:"",
-    	size:"",
-    	num:''
-    };
     var IDurl=window.location.href;
     var GoodId=IDurl.substr(IDurl.indexOf("=")+1);
     $.ajax({
@@ -79,6 +73,8 @@ $(function(){
     				
     			}
     		}
+    		$("#bu_color li:first").addClass("action");
+    		$("#bu_size li:first").addClass("action");
 			$("#bu_color li").on("click",function(){
 				$(this).addClass("action").siblings().removeClass("action");
 				cartArr.color=$(this).text();

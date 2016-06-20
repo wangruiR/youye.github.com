@@ -5,7 +5,7 @@ $(function(){
     
     $(window).on("scroll",function(){
         var $advert_top=$(this).height()/2+$(document).scrollTop()-160;
-        $(".index_advert").animate({"top":$advert_top},60);
+        $(".index_advert").stop().animate({"top":$advert_top},500);
     });
     
     

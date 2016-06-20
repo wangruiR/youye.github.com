@@ -13,6 +13,16 @@ $(function(){
     });
     header_pan();
     
+    /*购物车数量*/
+    
+    if($.cookie("shopcart")){
+    	var shopcart_num=$.cookie("shopcart").split(",").length;
+    	$(".shopcart_num").text(shopcart_num);
+    }
+    
+    
+    
+    
     /*购买的退出的按钮*/
     $(document).on("click",function(evt){
     	if(evt.target.name=="header_tui"){
