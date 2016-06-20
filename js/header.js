@@ -14,12 +14,25 @@ $(function(){
     header_pan();
     
     /*购物车数量*/
-    
-    if($.cookie("shopcart")){
-    	var shopcart_num=$.cookie("shopcart").split(",").length;
-    	$(".shopcart_num").text(shopcart_num);
+     var delArr= function(ts){
+	 	ts.sort(); //先排序
+	 	var res = [ts[0]];
+		 	for(var i = 1; i < ts.length; i++){
+		  	if(ts[i] !== res[res.length - 1]){
+		   	res.push(ts[i]);
+		  	}
+		}
+		return res;
+	}
+    shopCartNumK();
+    function shopCartNumK(){
+        if($.cookie("shopcart")){
+            var shopcart_num=delArr($.cookie("shopcart").split(",")).length;
+            $(".shopcart_num").text(shopcart_num);
+        }
     }
     
+   
     
     
     
