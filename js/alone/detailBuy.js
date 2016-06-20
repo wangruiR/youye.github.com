@@ -17,6 +17,11 @@ $(function(){
 			$.cookie("shopcart",GoodId,{path:'/'});
 			$.cookie("num"+GoodId,Number($.cookie("num"+GoodId))+shopcartnum,{path:"/"});
 		}
-		location.href="shopCart.html";
+		if($.cookie("shopcart")){
+	    	var shopcart_num=$.cookie("shopcart").split(",").length;
+	    	$(".shopcart_num").text(shopcart_num);
+	    	$(".deta_buy_bg").hide();
+    		$(".date_b_box").slideUp(400);
+	    }
 	});
 });

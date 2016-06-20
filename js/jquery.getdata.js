@@ -24,7 +24,7 @@
 					}
 					obj.find(".com_nav_list").html(html);
 					obj.find(".com_nav_list li").on("click",function(){
-						location.href="html/detailed.html?id="+$(this).attr("id");
+						window.open("html/detailed.html?id="+$(this).attr("id"));
 					});
 				}
 			});

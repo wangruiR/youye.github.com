@@ -15,6 +15,7 @@ $(function(){
 		if($.cookie("shopcart")){
 			$(".cart_no").hide();
 			$(".cart_main").show();
+			var shopcart_arr=delArr($.cookie("shopcart").split(","));
 			$.ajax({
 				type:"get",
 				url:"../data/detail.json",
@@ -33,8 +34,7 @@ $(function(){
 						}
 					}
 					
-					$(".cart_sh_tab").prepend(html);
-					
+					$(".cart_shop_body").prepend(html);
 					/*anniu功能绑定*/
 					$(".cart_goodNum").find(".reduce").on("click",function(){
 				
@@ -47,11 +47,13 @@ $(function(){
 				    	}
 				    	var cart_xiaoji=Number($(this).parent().parent().find(".cart_danjia").text())*Number($(this).parent().find(".date_bb_num").text());
 				    	$(this).parent().parent().find(".cart_xiaoji").html(cart_xiaoji.toFixed(2));
+						check_num();;
 					});
 				    $(".cart_goodNum").find(".add").on("click",function(){
 				    	$(this).parent().find(".date_bb_num").html(Number($(this).parent().find(".date_bb_num").text())+1);
 				    	var cart_xiaoji=Number($(this).parent().parent().find(".cart_danjia").text())*Number($(this).parent().find(".date_bb_num").text());
 				    	$(this).parent().parent().find(".cart_xiaoji").html(cart_xiaoji.toFixed(2));
+				    	check_num();
 				    });
 					$(".cart_del").on("click",function(){
 						var del_name=$(this).parent().parent().attr("name");
@@ -62,7 +64,9 @@ $(function(){
 						}
 						$.cookie("num"+del_name,null,{path:'/'});
 						$.cookie("shopcart",shopcart_arr.toString(),{path:"/"});
-						shopart_show();
+						//$(".cart_shop_body").html("");
+						$(".cart_shop_body tr").eq($(this).parent().parent().index()).empty();
+						check_num();
 					});
 					
 				
@@ -88,7 +92,7 @@ $(function(){
 							$(".cart_sh_tab input").not(".cart_all_check").trigger("change");
 						}
 					});
-					
+					$(".cart_all_check").trigger("click");
 				}
 			});
 			

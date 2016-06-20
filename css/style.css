@@ -272,7 +272,7 @@
     margin-top: 4px;
     padding-top: 10px;
     overflow: hidden;
-    background: #f7f7f7;
+    /*background: #f7f7f7;*/
 }
 .main_deta{
     padding: 10px;
@@ -1008,6 +1008,20 @@
     padding-left: 18px;
     color: red;
 }
+
+
+
+/*结算页面*/
+.cart_ms02{
+    background-position: 152px -236px;
+
+}
+
+
+
+
+
+
 
 
 
