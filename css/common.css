@@ -722,9 +722,9 @@
 }
 .com_nav li:hover img{
     transform: scale(1.08);
-    -webkit-transtion:scale(1.08);
-    -moz-transtion:scale(1.08);
-    -o-transtion:scale(1.08);
+    -webkit-tranform:scale(1.08);
+    -moz-transform:scale(1.08);
+    -o-transform:scale(1.08);
 }
 .com_nl_tit{
     margin-top: 6px;

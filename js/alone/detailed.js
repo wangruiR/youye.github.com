@@ -90,15 +90,15 @@ $(function(){
     
     $(".main_db_add").on("click",function(){
     	$(".deta_buy_bg").show();
-    	$(".date_b_box").show();
+    	$(".date_b_box").slideDown();
     });
     $(".deta_buy_bg").on("click",function(){
     	$(this).hide();
-    	$(".date_b_box").hide();
+    	$(".date_b_box").slideUp();
     });
     $(".date_dd_close").on("click",function(){
     	$(".deta_buy_bg").hide();
-    	$(".date_b_box").hide();
+    	$(".date_b_box").slideUp();
     });
     $("#date_bb_reduce").on("click",function(){
     	if(Number($(".date_bb_num").text())<=0){

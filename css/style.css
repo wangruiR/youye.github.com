@@ -1016,7 +1016,261 @@
     background-position: 152px -236px;
 
 }
-
+.shop_tit{
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+.shop_box{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.shop_bf_box{
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 18px;
+    color: #666;
+}
+.shop_bf_box h4{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 16px;
+    font-weight: 900;
+}
+.shop_bf_box .shop_bfb_di{
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 144px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid #e4393c;
+    background: url(../img/selected-icon.png) right bottom no-repeat;
+}
+.shop_bf_box .shop_bfb_dizhi{
+    float: left;
+    margin-left: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.shop_bfb_zhifu{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+.shop_bf_box .action{
+    border: 1px solid #e4393c;
+    background: url(../img/selected-icon.png) right bottom no-repeat;
+}
+.shop_bfbz_more{
+    margin-left: 10px;
+}
+.shop_bfb_nav{
+    overflow: hidden;
+}
+.shop_bfb_nav li{
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    border: 1px solid #eee;
+}
+.shop_gfbn_link{
+    float: left;
+    width: 140px;
+    height: 100px;
+    overflow: hidden;
+}
+.shop_gfbn_link img{
+    width:100%; 
+}
+.shop_bfbn_tit{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    width: 500px;
+    line-height: 20px;
+}
+.shop_bgbn_price{
+    float: left;
+    margin-left: 50px;
+    height: 100px;
+    line-height: 100px;
+    color: #e4393c;
+    font-weight: 800;
+    font-size: 18px;
+}
+.shop_bfbn_shu{
+    float: left;
+    margin-left: 50px;
+    height: 100px;
+    line-height: 100px;
+    color: #e4393c;
+    font-weight: 800;
+    font-size: 18px;
+}
+.shop_btn{
+    overflow: hidden;
+}
+.shop_btn_info{
+    padding-right: 30px;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    color: #666;
+}
+.shop_btn_info em{
+    display: inline-block;
+    width: 100px;
+}
+.shop_btn_box{
+    height: 70px;
+    border-top: 1px solid #e6e6e6;
+    background: #f4f4f4;
+}
+.shop_bb_money{
+    padding-right: 30px;
+    display: block;
+    line-height: 40px;
+    text-align: right;
+}
+.shop_bb_money em{
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #e4393c;
+}
+.shop_bb_money i{
+    padding-right: 8px;
+}
+.shop_bb_hui{
+    line-height: 20px;
+    color: #999999;
+}
+.shop_btn_link{
+    float: right;
+    margin-top: 20px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    background: #e2383b;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+.shop_bg{
+	display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    z-index: 999999;
+}
+.shop_address{
+	display: none;
+    position: fixed;
+    left: 50%;
+    top: 200px;
+    width: 690px;
+    margin-left: -345px;
+    background: #fff;
+    z-index: 9999999;
+}
+.shop_ad_tit{
+    padding: 0 10px;
+    height: 31px;
+    line-height: 31px;
+    background: #f3f3f3;
+    color: #666;
+}
+.shop_ad_tit span{
+    float: left;
+}
+.shop_ad_tit a{
+    float: right;
+    font-size: 16px;
+}
+.shop_ad_box{
+    padding: 20px;
+}
+.shop_adb_box{
+    position: relative;
+    float: left;
+    margin-bottom: 15px;
+    line-height: 25px;
+    width: 600px;;
+}
+.shop_adb_box label{
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 4px 0 3px;
+    width: 75px;
+    text-align: right;
+}
+.shop_adb_box em{
+    color: red;
+}
+.shop_adb_box input{
+    float: left;
+    margin-top: 2px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    height:20px;
+    padding-left: 4px;
+    outline: none;
+}
+.shop_adb_box .user{
+    width: 180px;
+}
+.shop_adb_box .address{
+    width: 140px;
+}
+.shop_adb_box .address_xiang{
+    width: 260px;
+}
+.shop_adb_box .phone{
+    width: 180px;
+}
+.shop_adb_box .email{
+    width: 180px;
+}
+.shop_ad_btn{
+    margin-left: 84px;
+    display: block;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #eee;
+    background-image: linear-gradient(to top,#f7f7f7 0,#f2f2f2 100%);
+    border-radius: 6px;
+    color: #666;
+}
+.form_control{
+	display: inline;
+    margin-left: 10px;
+	float: left;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+.shop_ad_btn:hover{
+	color: #000;
+}
 
 
 

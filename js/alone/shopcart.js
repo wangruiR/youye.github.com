@@ -67,6 +67,7 @@ $(function(){
 						//$(".cart_shop_body").html("");
 						$(".cart_shop_body tr").eq($(this).parent().parent().index()).empty();
 						check_num();
+						
 					});
 					
 				
@@ -102,7 +103,13 @@ $(function(){
 			$(".cart_main").hide();
 		}
 	};
-	
+	/*$(".cart_sj_del").on("click",function(){
+		for(var i=0;i<$(".cart_sh_tab input").length;i++){
+			if($(".cart_sh_tab input").eq(i).get(0).checked){
+				$(".cart_shop_body tr").eq(i).find(".cart_del").trigger("click");
+			}
+		}
+	});*/
 	
 	function check_num(){
 		var cart_Zong=0;
@@ -117,7 +124,23 @@ $(function(){
 		$("#cart_Zong").html(cart_Zong.toFixed(2));
 	}
 	
-	
+	$(".cart_shopbtn").on("click",function(){
+		var checkOut='';
+		for(var i=0;i<$(".cart_sh_tab input").length;i++){
+			if($(".cart_sh_tab input").eq(i).get(0).checked){
+				checkOut+=$(".cart_sh_tab input").eq(i).parent().parent().attr("name")+',';
+				$.cookie("check"+$(".cart_sh_tab input").eq(i).parent().parent().attr("name"),$(".cart_sh_tab input").eq(i).parent().parent().find(".date_bb_num").text(),{path:'/'})
+			}
+		}
+		if(checkOut==''){
+			alert("请选择商品之后在结账哟，亲！");
+		}else{
+			checkOut=checkOut.substr(0,checkOut.length-1);
+			$.cookie("checkout",checkOut,{path:'/'});
+			location.href="shoping.html";
+		}
+		
+	});
 	
 	
 	

@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="../css/common.css" />
     <link type="text/css" rel="stylesheet" href="../css/style.css" />
     <link type="text/css" rel="stylesheet" href="../css/icon.css" />
+    <link type="text/css" rel="stylesheet" href="../css/city-picker.css"  />
     <script src="../js/jquery-2.0.0.min.js"></script>
     <script src="../js/jquery.cookie.js"></script>
     <script src="../js/jquery.getdata.js"></script>
@@ -212,8 +213,66 @@
                     <li class="cart_ml03">立即支付</li>
                 </ul>
             </div>
+            <h3 class="shop_tit">填写并核对订单信息</h3>
+            <div class="shop_box">
+                <form>
+                    <div class="shop_bf_box">
+                        <h4>收货人信息</h4>
+                        <span class="shop_bfb_di">请填写收货地址</span>
+                        <p class="shop_bfb_dizhi"></p>
+                    </div>
+
+                     <div class="shop_bf_box">
+                        <h4>支付方式</h4>
+                        <p id="shop_zhi">
+                            <a href="javascript:void(0)" class="shop_bfb_zhifu action">货到付款</a>
+                            <a href="javascript:void(0)" class="shop_bfb_zhifu">微信支付</a>
+                            <a href="javascript:void(0)" class="shop_bfb_zhifu">京东支付</a>
+                            <a href="javascript:void(0)" class="shop_bfb_zhifu">在线支付</a>
+                            <a href="javascript:void(0)" class="shop_bfbz_more">更多>></a>
+                        </p>
+                    </div>
+                     <div class="shop_bf_box">
+                        <h4>送货清单</h4>
+                        <ul class="shop_bfb_nav">
+                            
+                            <!--<li>
+                                <a class="shop_gfbn_link"><img src="../img/hot/13994510211572.jpg" /></a>
+                                <span class="shop_bfbn_tit">【全国包邮】仅19.90元，享原价139元可爱女人2014春夏新品鱼嘴欧洲时尚内增高低帮女鞋。大牌时尚范儿，经典百搭款， 原创金属豹子头装饰，舒适鱼嘴平底单鞋，显瘦穿出大牌范！（3色可选）</span>
+                                <span class="shop_bgbn_price">19.90</span>
+                                <span class="shop_bfbn_shu">X1</span>
+                            </li>-->
+                        </ul>
+                    </div>
+                     <div class="shop_bf_box">
+                        <h4>发票信息</h4>
+                        
+                        <p>普通发票</p>
+                    </div>
+                </form>
+            </div>
+            <div class="shop_btn">
+                <span class="shop_btn_info" id="shop_btn_info">
+                    总商品金额<em>￥19.90</em>
+                </span>
+                <span class="shop_btn_info">
+                    返现<em>￥00.00</em>
+                </span>
+                <span class="shop_btn_info">
+                    运费<em>￥00.00</em>
+                </span>
+                <div class="shop_btn_box">
+                    <span class="shop_bb_money">应付金额<em>￥19.00</em></span>
+                    <span class="shop_bb_money shop_bb_hui"></span>
+                </div>
+                <a class="shop_btn_link">提交订单</a>
+            </div>
         </div>
     </div>
+    <script src="../js/alone/shopping.js"></script>
+    
+    
+    
     <!--footer底部-->
     <div class="footer clearfix">
         <!--footer的service-->
@@ -292,10 +351,44 @@
     </div>
     <script src="../js/index_advert.js"></script>
     
+    <!--编辑收货地址-->
+    <div class="shop_address">
+        <h5 class="shop_ad_tit">
+            <span>编辑收货人地址</span>
+            <a class="shop_ad_close" title="关闭">X</a>
+        </h5>
+        <div class="shop_ad_box">
+            <form>
+                <p class="shop_adb_box">
+                    <label><em>*</em>收货人</label>
+                    <input type="text" class="user" name="user" autocomplete="off" />
+                </p>
+                <p class="shop_adb_box">
+                    <label><em>*</em>所在地区</label>
+                    <em class="form_control"><input type="text" id="adress" class="address" name="address" /></em>
+                </p>
+                <p class="shop_adb_box">
+                    <label><em>*</em>详细地址</label>
+                    <input type="text" type="text" autocomplete="off" name="address_xiang" class="address_xiang" />
+                </p>
+                <p class="shop_adb_box">
+                    <label><em>*</em>手机号码</label>
+                    <input type="text" name="phone" class="phone" autocomplete="off" />
+                     <label>固定号码</label>
+                    <input type="text" name="phone1" class="phone" autocomplete="" />
+                </p>
+                <p class="shop_adb_box">
+                    <label>邮箱</label>
+                    <input type="text" name="email" class="email" autocomplete="off" />
+                </p>
+                <p class="shop_adb_box"><a class="shop_ad_btn">保存收货人信息</a></p>
+            </form>
+        </div>
+    </div>
+    <div class="shop_bg"></div>
     
-    
-    
-    
+<script src="../js/city-picker.data.js"></script>
+<script src="../js/city-picker.js"></script>
     
     
     
