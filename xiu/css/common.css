@@ -1,0 +1,187 @@
+/*首页*/
+.com_header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 44px;
+    width: 100%;
+    background: #e4366b;
+}
+.com_h_tit{
+    line-height: 44px;
+    font-size: 0.22rem;
+    text-align: center;
+    color: #fff;
+    font-family: "幼圆";
+    font-weight: 600;
+}
+.com_h_tit em{
+    margin-right: 0.1rem;
+}
+
+
+
+.com_content{
+    position: absolute;
+    top: 44px;
+    bottom: 49px;
+    width: 100%;
+    overflow: hidden;
+}
+.com_cont{
+    width: 100%;
+    min-height: 1rem;
+}
+
+/*公共的背景颜色*/
+.com_box_bg{
+    background: #f7f7f7;
+}
+.com_box_bg:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    border-top:1px solid #000;
+    -webkit-transform: scaleY(0.5);
+}
+
+
+.com_footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: -webkit-flex !important;
+    height: 49px;
+    width: 100%;
+    background: #484850;
+    flex-direction: row;
+    justify-content: center;
+}
+.com_footer>div{
+    flex: 1;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 2px solid #484850;
+}
+.com_footer>div a{
+    color: #fff;
+}
+.com_footer>div i{
+    display: block;
+    font-size: 26px;
+    height: 30px;
+    line-height: 30px;
+}
+.com_footer>div p{
+    font-size: 13px;
+    height: 17px;
+    line-height: 16px;
+}
+
+.com_footer>div:nth-child(2) i{
+    font-size: 18px;
+
+}
+.com_footer .action{
+    border-top: 2px solid red;
+}
+
+
+
+/*头部btn*/
+.back_btn{
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 0.1rem;
+    height: 20px;
+    width: 26px;
+    background: url(../img/back_btn.jpg);
+    background-size: 100% 100%;
+}
+.login_btn{
+    position: absolute;
+    display: block;
+    top: 8px;
+    right: 0.1rem;
+    height: 28px;
+    width: 54px;
+    background: url(../img/header_login.jpg);
+    background-size: 100% 100%;
+}
+.regist_btn{
+    position: absolute;
+    display: block;
+    top: 8px;
+    right: 0.1rem;
+    height: 28px;
+    width: 54px;
+    background: url(../img/header_regist.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+/*登录注册的form*/
+.com_form{
+    padding: 0 0.2rem;
+    margin-top: 0.3rem;
+}
+.form_group{
+    width: 100%;
+    height: 0.7rem;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+.form_group input{
+    padding-left: 0.1rem;
+    width: 100%;
+    background: #fff;
+    height: 0.4rem;
+    border-radius: 0.08rem;
+    font-size: 0.18rem;
+    outline: none;
+}
+.form_group span{
+    display: none;
+    font-size: 0.12rem;
+    line-height: 0.3rem;
+    height: 0.3rem;
+    color: #999;
+}
+.form_group .danger{
+    color: firebrick;
+}
+.form_cookie{
+    font-size: 0.14rem;
+    height: 0.4rem;
+}
+.form_cookie input{
+    float: left;
+    clear: both;
+    display: table-cell;
+    background: #fff;
+    border: 0.01rem solid #d6d6d6;
+    width: 0.14rem;
+    height: 0.14rem;
+}
+.form_cookie label{
+    margin-top: 0.02rem;
+    width: 0.8rem;
+    display: inline-flex;
+    color: #858585;
+}
+.form_cookie a{
+    margin-top: 0.02rem;
+    display: inline-block;
+    clear: both;
+    color: #9c9c9c;
+    text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,59 @@
+html,body,ol,ul,dl,dt,dd,div,p,h1,h2,h3,h4,h5,h6,img,form,fieldset,legend{
+    padding:0;
+    margin: 0;
+}
+fieldset,legeng{
+    border: none;
+}
+html{
+    font-size: calc(100vw/3.2);
+}
+html,body{
+    font-weight: "微软雅黑";
+    width: 100%;
+    height: 100%;
+}
+table,input,img{
+    border: none;
+}
+img{
+    display: block;
+}
+ul,ol,dl{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+
+.clearfix:after{
+    display: block;
+    content: '.';
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;
+}
+@font-face{
+    font-family:Piao;
+    src:url('../font/piao.ttf');
+}
+    
+    
+    
+    
+    
+    
+    
+    
