@@ -39,7 +39,7 @@
     display: -webkit-flex;
     width: 400%;
     height: 100%;
-    transition: all 1s;
+    -webkit-transition: all 1s;
 }
 .show_li{
     position: relative;
@@ -194,7 +194,7 @@
     height: 100%;
     width: 600%;
     flex-direction: row;
-    transition: all 0s;
+    -webkit-transition: all 0s;
 }
 .index_b_ul li{
     width: 100%;
@@ -302,7 +302,7 @@
 .index_nr_price span{
     font-size: 0.10rem;
     color: #bcbcbc;
-    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
     -webkit-transform: scaleX(0.8);
     text-decoration: line-through;
 }
@@ -600,7 +600,7 @@
 .good_d_nav{
 	margin-top: 0.6rem;
 	width: 400%;
-	transition: all 1s;
+	-webkit-transition: all 1s;
 	display: -webkit-flex;
 	flex-direction: row;
 }
