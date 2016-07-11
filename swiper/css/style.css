@@ -66,11 +66,7 @@ body {
     background-size: 100% 100%;
 }
 .swiper-slide.one .top{
-    position: absolute;
-    margin:auto;
-    top: 10%;
-    right: 0;
-    top: 0;
+    margin: 10% auto 0;
     width: 70%;
     height: 50%;
     overflow: hidden;
