@@ -1,0 +1,227 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+    	position: relative;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        overflow: hidden;
+        /*Center slide text vertically 
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;*/
+    }
+    
+/*音乐*/
+.music{
+	position: absolute;
+    background: url("../img/musicBtn.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 0.28rem;
+    z-index: 999;
+    right: 0;
+    top: 0;
+	
+}
+.music.paused{
+	background: url("../img/musicBtnOff.png") no-repeat;
+	background-size: 100% 100%;
+}
+.music.play{
+	background: url("../img/musicBtn.png") no-repeat;
+	background-size: 100% 100%;
+}
+.swiper-slide.one .one_bg{
+	padding-top: 0.4rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	z-index: 1;
+} 
+.jian{
+	position: absolute;
+	bottom: 4%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0.2rem;
+	z-index: 99999;
+	/*-webkit-animation: jiantou 1.2s  infinite ease-in-out;*/
+}
+.jian img{
+	display: block;
+	width: 100%;
+}
+.one_jian{
+	bottom: 8%;
+	-webkit-animation: jiantou 1.2s  infinite ease-in-out;
+}
+.swiper-slide.one .one_top{
+	position: absolute;
+	top: 0.07rem;
+	left: 0.07rem;
+	width: 1rem;
+}
+.swiper-slide.one .one_nav{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	-webkit-animation: onebgmove 10s infinite linear;
+}
+.swiper-slide.one .one_nav img{
+	display: block;
+	width: 100%;
+}
+.swiper-slide.one .one_left{
+	left: -100%;
+}
+.swiper-slide.one .one_box{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 60%;
+	height: 1.4rem;
+	overflow: hidden;
+	z-index: 999;
+	
+}
+.swiper-slide.one .one_box img{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.swiper-slide.two{
+	background: #fe657a;
+}
+.swiper-slide.two .two_bg{
+	position: absolute;
+	right: 0;
+	top: 10%;
+	width: 80%;
+	z-index: 1;
+}
+
+.swiper-slide.two .two_xing{
+	position: absolute;
+	right: 0;
+	top: 10%;
+	width: 80%;
+	z-index: 9;
+	opacity: 0;
+	/*-webkit-animation: twobgmove 1s infinite linear;*/
+	
+}
+.swiper-slide.two .two_light{
+	position: absolute;
+	right: 0;
+	top: 10%;
+	width: 80%;
+	z-index: 9;
+	opacity: 0;
+	/*-webkit-animation: twobgmove 0.8s infinite ease-in-out;*/
+}
+.swiper-slide.two .two_top{
+	position: absolute;
+	top: 0.12rem;
+	left: 0.12rem;
+	width: 20%;
+}
+.swiper-slide.two .two_top img{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	z-index: 99;
+}
+.swiper-slide.two .two_bottom{
+	position: absolute;
+	bottom: 0.2rem;
+	right: 0.16rem;
+	width: 0.6rem;
+	height: 1.8rem;
+	z-index: 999;
+
+}
+.swiper-slide.two .two_bottom img{
+	display: block;
+	position: absolute;
+
+}
+.swiper-slide.two .two_bottom img:nth-of-type(1){
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+.swiper-slide.two .two_bottom img:nth-of-type(2){
+	width: 60%;
+	left: 0;
+	top: 0.06rem;
+}
+.swiper-slide.two .two_bottom img:nth-of-type(3){
+	width: 40%;
+	left: 0;
+	top: 4%;
+}
+
+
+
+
+
+
+
+
+/*one*/
+@-webkit-keyframes onebgmove{
+	from{-webkit-transform: translateX(0);}
+	to{-webkit-transform: translateX(100%);}
+}
+/*two*/
+@-webkit-keyframes twobgmove{
+	0%{opacity: 0.3;}
+	50%{opacity: 1;}
+	100%{opacity: 0.2;}
+}
+
+/*小箭头*/
+@-webkit-keyframes jiantou{
+	0%{opacity: 0;-webkit-transform: translateY(0);}
+	50%{opacity: 1;-webkit-transform: translateY(-6px);}
+	100%{opacity: 0.2;-webkit-transform: translateY(-6px);}
+}
+
