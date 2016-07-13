@@ -360,19 +360,101 @@ html, body {
     left: 0;
     display: block;
     width: 100%;
+    /*-webkit-animation: qqbounce 1s infinite linear;*/
+}
+.swiper-slide.five{
+	background: #669cff;
+	
+}
+.swiper-slide.five .five_top{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 10%;
+	margin: auto;
+	width: 40%;
+}
+.swiper-slide.five .five_box{
+	position: absolute;
+	left: 0;
+	top: 44%;
+	width: 100%;
+}
+.swiper-slide.five .five_box img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.swiper-slide.six .six_top{
+	position: absolute;
+	top: 0.07rem;
+	left: 0.07rem;
+	width: 1rem;
+}
+.swiper-slide.six .six_tit{
+	position: absolute;
+	top: 12%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 70%;
+}
+.swiper-slide.six .search{
+	padding: 4px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 30%;
+	margin: auto;
+	border: solid 1px #959ba0;
+    overflow: hidden;
+    width: 70%;
+	height: 18px;
+}
+.swiper-slide.six .search .search_txt{
+	display: block;
+	width: 50%;
+	height: 18px;
+	overflow: hidden;
+	/*-webkit-animation: last 3s infinite linear;*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.swiper-slide.six .search .search_txt img{
+	margin-top: 1%;
+	display: block;
+	height: 18px;
+	z-index: 9;
+}
+.swiper-slide.six .search .search_btn{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10%;
+	height: 100%;
+	background:  #669cff url(../img/iconsZoom.png) no-repeat center;
+	background-size: 80% 80%;
+}
+.swiper-slide.six .six_chuo{
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 76%;
+	width: 20%;
+}
+.swiper-slide.six .six_btn_l{
+	position: absolute;
+	top: 80%;
+	width: 36%;
+	left: 10%;
+}
+.swiper-slide.six .six_btn_r{
+	position: absolute;
+	top: 80%;
+	width: 36%;
+	right: 10%;
+}
 
 
 
@@ -404,4 +486,13 @@ html, body {
 	50%{opacity: 1;-webkit-transform: translateY(-6px);}
 	100%{opacity: 0.2;-webkit-transform: translateY(-6px);}
 }
+@-webkit-keyframes qqbounce{
+    0%,50%,75%,85%,100%{-webkit-transform:translateY(0);}
+    80%{-webkit-transform:translateY(-15px)}
+    90%{-webkit-transform:translateY(-7px)}
+}
+@-webkit-keyframes last{
+	0%{width: 0%;}
 
+	100%{width: 50%;}
+}

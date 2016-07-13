@@ -26,26 +26,31 @@
             $(".swiper-slide.four").find(".jian").css("-webkit-animation","jiantou 1.2s  infinite ease-in-out");
             $(".swiper-slide.four").find(".four_light_l").css({"-webkit-animation":"twobgmove 1s infinite ease-in-out","-webkit-animation-delay": "1s"});
             $(".swiper-slide.four").find(".four_light_r").css({"-webkit-animation":"fourbgmove 1s infinite ease-in-out","-webkit-animation-delay": "1s"});
-         }
+            $(".swiper-slide.four").find(".four_you").css("-webkit-animation",'qqbounce 1s infinite linear');
+        }else if(swiper.activeIndex==4){
+    		$(".swiper-slide.five").find(".jian").css("-webkit-animation","jiantou 1.2s  infinite ease-in-out");
+    	}else if(swiper.activeIndex==5){
+    		$(".swiper-slide.six").find(".search_txt").css({"-webkit-animation":"last 3s linear","-webkit-animation-delay": "2s"});
+    	}
       } 
  });
 
 function cssDefault(falg){
 	$(".swiper-slide").find(".jian").css("-webkit-animation",null);
-    if(falg==0){
-        $(".swiper-slide.one").find(".one_nav").css("-webkit-animation",null);
-    }else if(falg==1){
-        $(".swiper-slide.two").find(".two_light").css("-webkit-animation",null);
-        $(".swiper-slide.two").find(".two_xing").css("-webkit-animation",null);
-    }else if(falg==2){
-        $(".swiper-slide.three").find(".three_light").css({"-webkit-animation":null});
-        $(".swiper-slide.three").find(".three_xing").css({"-webkit-animation":null});
-    }else if(falg==3){
-        $(".swiper-slide.four").find(".four_light_l").css("-webkit-animation",null);
-        $(".swiper-slide.four").find(".four_light_r").css("-webkit-animation",null);
-    }
-	
+    $(".swiper-slide.one").find(".one_nav").css("-webkit-animation",null);
 
+    $(".swiper-slide.two").find(".two_light").css("-webkit-animation",null);
+    $(".swiper-slide.two").find(".two_xing").css("-webkit-animation",null);
+
+    $(".swiper-slide.three").find(".three_light").css({"-webkit-animation":null});
+    $(".swiper-slide.three").find(".three_xing").css({"-webkit-animation":null});
+
+    $(".swiper-slide.four").find(".four_light_l").css("-webkit-animation",null);
+  	$(".swiper-slide.four").find(".four_light_r").css("-webkit-animation",null);
+
+	$(".swiper-slide.four").find(".four_you").css("-webkit-animation",null);
+	
+	$(".swiper-slide.six").find(".search_txt").css({"-webkit-animation":null});
 	
 	
 }
